@@ -2,8 +2,8 @@
 import { menuMain } from "~/data/menus.js";
 
 const rmTrailingSlash = (path: string): string => {
-  return path.endsWith("/") && path.length > 1 
-    ? path.slice(0, path.length - 1) 
+  return path.endsWith("/") && path.length > 1
+    ? path.slice(0, path.length - 1)
     : path;
 }
 
@@ -14,7 +14,7 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 	<div class="container py-6">
 		<nav class="flex items-center justify-between" aria-label="Global">
 			<a href="/" class="-m-1.5 p-1.5">
-				<p class="font-bold text-4xl text-brand-green">Astro<span class="text-brand-red bg-brand-red/5 px-3 ml-1 rounded-lg">Pie</span></p>
+				<p class="font-bold text-4xl text-brand-green">Sakatara<span class="text-brand-red bg-brand-red/5 px-3 ml-1 rounded-lg">KKN</span></p>
 			</a>
 			<div class="flex lg:hidden">
 				<button

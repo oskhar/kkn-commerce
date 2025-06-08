@@ -5,11 +5,6 @@ export const menuMain = [
         highlighted: false,
     },
     {
-        name: "Menu",
-        url: "/menu",
-        highlighted: false,
-    },
-    {
         name: "About Us",
         url: "/about-us",
         highlighted: false,

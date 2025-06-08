@@ -1,40 +1,30 @@
 // Global variables
 export const siteLang = "en-US";
 export const siteCurrency = "USD";
-export const siteDomain = "astropie.com";
-export const siteName = "AstroPie";
+export const siteDomain = "Sakatara.com";
+export const siteName = "Sakatara";
 export const siteSlogan = "The best pies in the galaxy!";
 export const themeColor = "#FF0000";
 
 export const phone = {
-	href: "tel:+123456789",
-	label: "(123) 456-789",
+	href: "tel:+6281386380481",
+	label: "(62) 813 8638 0481",
 };
 
 export const email = {
-	href: "mailto:info@astropie.com",
-	label: "info@astropie.com",
+	href: "mailto:sakatarakkn@gmail.com",
+	label: "sakatarakkn@gmail.com",
 };
 
 export const address = {
-	street: "1234 Space Street",
-	city: "Galaxy City",
-	zip: "12345",
-	state: "Milky Way",
-	country: "Space",
+	street: "Jl. Ir H. Juanda No.95",
+	city: "Ciputat",
+	zip: "15412",
+	state: "Banten",
+	country: "Indonesia",
 };
 
 export const socialMedia = {
-	facebook: {
-		url: "https://facebook.com",
-		label: "Facebook",
-		icon: "facebook",
-	},
-	twitter: {
-		url: "https://twitter.com",
-		label: "Twitter",
-		icon: "twitter",
-	},
 	instagram: {
 		url: "https://instagram.com",
 		label: "Instagram",
@@ -42,8 +32,8 @@ export const socialMedia = {
 	},
 	youtube: {
 		url: "https://youtube.com",
-		label: "YouTube",
-		icon: "youtube",
+		label: "Tiktok",
+		icon: "tiktok",
 	},
 };
 
